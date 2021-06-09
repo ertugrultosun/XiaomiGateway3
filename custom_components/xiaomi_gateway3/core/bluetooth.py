@@ -32,12 +32,14 @@ DEVICES = [{
     2888: ["Xiaomi", "Qingping TH Sensor", "CGG1"],  # same model as 839?!
 }, {
     # MiBeacon from advanced support
-    131: ["Xiaomi", "Kettle", "YM-K1501"],
+    131: ["Xiaomi", "Kettle", "YM-K1501"],  # CH, HK, RU version
+    275: ["Xiaomi", "Kettle", "YM-K1501"],  # international
     339: ["Yeelight", "Remote Control", "YLYK01YL"],
     860: ["Xiaomi", "Scooter M365 Pro", "DDHBC02NEB"],  # only tracking
     950: ["Yeelight", "Dimmer", "YLKG07YL"],
     # Thanks to https://github.com/custom-components/ble_monitor/issues/352
     959: ["Yeelight", "Heater Remote", "YLYB01YL-BHFRC"],
+    1116: ["Xiaomi", "Viomi Kettle", "V-SK152"],  # international
     1254: ["Yeelight", "Fan Remote", "YLYK01YL-VENFAN"],
     1678: ["Yeelight", "Fan Remote", "YLYK01YL-FANCL"],
 }, {
