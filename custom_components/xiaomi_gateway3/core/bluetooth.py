@@ -40,6 +40,7 @@ DEVICES = [{
     # Thanks to https://github.com/custom-components/ble_monitor/issues/352
     959: ["Yeelight", "Heater Remote", "YLYB01YL-BHFRC"],
     1116: ["Xiaomi", "Viomi Kettle", "V-SK152"],  # international
+    1161: ["Xiaomi", "Toothbrush T500", "MES601"],
     1254: ["Yeelight", "Fan Remote", "YLYK01YL-VENFAN"],
     1678: ["Yeelight", "Fan Remote", "YLYK01YL-FANCL"],
 }, {
