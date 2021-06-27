@@ -214,7 +214,7 @@ def get_ble_domain(param: str) -> Optional[str]:
     elif param in (
             'action', 'rssi', 'temperature', 'humidity', 'illuminance',
             'moisture', 'conductivity', 'battery', 'formaldehyde',
-            'mosquitto', 'idle_time', 'weight', 'weight_kg', 'weight_lb'):
+            'supply', 'idle_time', 'weight', 'weight_kg', 'weight_lb'):
         return 'sensor'
 
     return None
@@ -327,7 +327,7 @@ def parse_xiaomi_ble(event: dict, pdid: int) -> Optional[dict]:
 
     elif eid == 0x1013 and length == 1:  # 4115
         # Remaining percentage, range 0~100
-        return {'mosquitto': data[0]}
+        return {'supply': data[0]}
 
     elif eid == 0x1014 and length == 1:  # 4116
         return {'water_leak': data[0]}  # 1 => on => wet
